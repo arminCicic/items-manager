@@ -1,0 +1,51 @@
+.formContainer {
+  width: 50vw;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+input:focus {
+  outline-color: rgb(30, 144, 255);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 2px 5px;
+  font: inherit;
+  font-size: 12px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(179, 213, 213);
+  transition: 0.7s;
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .formContainer {
+    width: 80vw;
+  }
+
+  .formContainer button {
+    font-size: 10px;
+  }
+
+  input {
+    margin-left: 29px;
+    width: 40%;
+  }
+}
