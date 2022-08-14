@@ -10,7 +10,7 @@ const ItemsList = ({ items, setItems, handleEdit, isEditing }) => {
     setItems(newItems);
   };
 
-  // In JSX map trough items array and return cards which represent single tasks, with unique keys.
+  // In JSX map trough items array and return cards which represent single item, with unique keys.
 
   return (
     <div className="itemsContainer">

@@ -35,7 +35,7 @@ button:hover {
   }
 }
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   .formContainer {
     width: 80vw;
   }

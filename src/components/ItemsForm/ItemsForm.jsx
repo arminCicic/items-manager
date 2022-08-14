@@ -21,7 +21,7 @@ const ItemsForm = ({
     setEditingItem({ ...editingItem, text: e.target.value });
   };
 
-  // Check if user tried to submit empty field, set the state of the items array which contains all the tasks, submit and clear input field.
+  // Check if user tried to submit empty field, set the state of the items array which contains all the items, submit and clear input field.
   const submitHandler = (e) => {
     e.preventDefault();
 
@@ -40,7 +40,7 @@ const ItemsForm = ({
     }
   };
 
-  // Submit the currently edited task.
+  // Submit the currently edited item.
   const editSubmitHandler = (e) => {
     e.preventDefault();
 
@@ -70,7 +70,7 @@ const ItemsForm = ({
             id="item"
             type="text"
             placeholder="Start typing..."
-            maxlength="47"
+            maxLength="47"
           ></input>
           <button>Add new Item</button>
         </form>
@@ -83,7 +83,7 @@ const ItemsForm = ({
             id="editingItem"
             type="text"
             placeholder="Start editing..."
-            maxlength="47"
+            maxLength="47"
           ></input>
           <button>Update</button>
         </form>
