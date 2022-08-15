@@ -1,5 +1,5 @@
 .App {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 h1 {
@@ -17,4 +17,5 @@ h1 {
   font-size: 20px;
   color: white;
   border-radius: 3px;
+  height: 100%;
 }
