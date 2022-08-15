@@ -1,5 +1,8 @@
 .formContainer {
   width: 50vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
 }
 
 input {
@@ -16,9 +19,10 @@ input:focus {
 button {
   border: none;
   cursor: pointer;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
   border-radius: 20px;
-  margin: 2px 5px;
+  margin: 0px 5px;
   font: inherit;
   font-size: 12px;
   transition-duration: 0.4s;
@@ -42,6 +46,7 @@ button:hover {
 
   .formContainer button {
     font-size: 10px;
+    width: 28%;
   }
 
   input {
